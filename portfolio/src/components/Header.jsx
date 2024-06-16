@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
@@ -13,10 +13,10 @@ const Header = () => {
         </section>
         <nav>
           <ul>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/project">Project</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
+          <li><a href="/about">About Me </a></li>
+          <li><a href="/project">Project</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/resume">Resume</a></li>
           </ul>
         </nav>
       </section>

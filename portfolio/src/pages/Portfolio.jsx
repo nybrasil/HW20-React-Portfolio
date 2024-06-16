@@ -4,10 +4,10 @@ import Project from '../components/Project';
 
 const projects = [
   {
-    title: 'Project One',
-    image: 'path/to/project1.jpg',
-    deployedUrl: 'https://deployed-project1.com',
-    repoUrl: 'https://github.com/nybrasil/project1'
+    title: 'Workout Tracker',
+    image: './image/WorkoutTracker2.png',
+    deployedUrl: 'https://paulrusz.github.io/Group-Project1/',
+    repoUrl: 'https://github.com/emsim11/Group-Project2'
   },
   // Add more projects here
 ];

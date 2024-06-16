@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <section>
       <h2>About Me</h2>
-      <img src="path/to/photo.jpg" alt="Developer" />
+      
       <p>
         Hello! I'm Tania, a dedicated web developer and former athlete, 
         bringing a unique blend of discipline, teamwork, and creativity to 
