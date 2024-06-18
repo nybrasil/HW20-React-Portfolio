@@ -1,11 +1,11 @@
 // src/pages/Portfolio.jsx
 import React from 'react';
 import Project from '../components/Project';
-
+import WorkoutTrackerimg from '../assets/image/WorkoutTracker2.png'
 const projects = [
   {
     title: 'Workout Tracker',
-    image: './image/WorkoutTracker2.png',
+    image: WorkoutTrackerimg,
     deployedUrl: 'https://paulrusz.github.io/Group-Project1/',
     repoUrl: 'https://github.com/emsim11/Group-Project2'
   },
