@@ -105,23 +105,28 @@ section h2::after {
   align-items: flex-end;
 }
 
-/* add background-images */
+.fixed-size-image {
+  width: 200px;  /* Set your desired width */
+  height: 200px; /* Set your desired height */
+  object-fit: cover; /* Optional: ensures images maintain their aspect ratio and fill the given dimensions */
+}
+
+
+/* add projects images */
 #project-A {
   background-image: url(./assets/image/WorkoutTracker2.png);
-  height: 600px;
-  width: 600px;
 }
 #project-B {
-  background-image: url(./assets/image/240_F_369710874_kk5feNC514J8bbN89O3c8kXV3tMCfh4G.jpg);
+  background-image: url(./assets/image/12-sql-homework-video-thumbnail.png);
 }
 #project-C {
-  background-image: url(./assets/image/240_F_487196520_GiPcqzQyBwbo0heCKZKCsy6Chrn3sdIN.jpg);
+  background-image: url(./assets/image/Screenshot\ 2024-03-03\ at\ 7.00.26\ PM.png);
 }
 #project-D {
-  background-image: url(./assets/image/240_F_626085367_2bs3eS7R9BYmIEUqNwBS0AvTYhfLMql3.jpg);
+  background-image: url(./assets/image/13-orm-homework-demo-01.gif);
 }
 #project-E {
-  background-image: url(./assets/image/240_F_634145612_3gDmvLxseyxQoqVjy2uqL1febeCWFPA2.jpg);
+  background-image: url(./assets/image/Screenshot\ 2024-06-05\ at\ 12.12.07\ PM.png);
 }
 
 .link-box-large {
@@ -228,4 +233,18 @@ section h2::after {
 .work-container a:visited {
   color: black;
   text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  border: 5px solid var(--color-darkblue);
+  border-radius: 10px;
+  position: absolute;
+  padding: 10px;
+  background-color: var(--color-lightwhite);
+  width: 100%;
+}
+
+footer p {
+  margin: 0px;
 }
