@@ -18,7 +18,7 @@ This project is a professional portfolio built using React. The primary motivati
 To get the development environment running, follow these steps:
 
 1. Clone the repository to your local machine:
-git `clone` https://github.com/your-ybrasil/react-portfolio.git
+git `clone` https://github.com/nybrasil/HW20-React-Portfolio
 
 2. Navigate to the project directory:
 `cd` react-portfolio
