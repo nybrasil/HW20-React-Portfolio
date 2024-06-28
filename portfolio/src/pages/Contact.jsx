@@ -31,9 +31,9 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section className='contactContainer'>
       <h2>Contact</h2>
-      <form>
+      <form className='contactForm'>
         <label>
           Name:
           <input 

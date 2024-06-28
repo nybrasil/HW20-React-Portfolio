@@ -3,8 +3,8 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <section>
-      <h2>About Me</h2>
+    <section className="aboutContainer">
+      <h2 className="aboutTitle">About Me</h2>
       
       <p>
         Hello! I'm Tania, a dedicated web developer and former athlete, 

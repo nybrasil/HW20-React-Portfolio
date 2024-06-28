@@ -1,13 +1,50 @@
 /* src/app.css */
 
-/* {
+.projectimage {
+  width: 300px;
+  height: 300px;
+}
+
+.projectContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  margin-top: 15px;
+
+}
+.contactForm label{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  width: 250px;
+}
+
+
+ *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* changed font-family */
-/*body {
+ /* changed font-family  */
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,8 +68,8 @@ header {
   align-items: center;
 }
 
-/* used border-radius for the avatar */
-/*.avatar {
+/* used border-radius for the avatar  */
+.avatar {
   width: 150px;
   height: 150px;
   border-radius: 65%;
@@ -60,13 +97,32 @@ nav a:hover {
 main {
   padding: 2rem;
 }
-
-section {
-  margin-bottom: 3rem;
+.aboutContainer{
+  margin-top: 10px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
 }
 
-section h2 {
+.aboutContainer p{
+  width: 750px;
+}
+
+.portfolioContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* section {
+  margin-bottom: 3rem;
+  display: flex;
+} */
+
+
+
+
+/* section h2 {
   width: 25%;
   position: relative;
 }
@@ -80,7 +136,7 @@ section h2::after {
   height: 100%;
   margin-right: 10px;
   background-color: red;
-}
+} */
 
 .content {
   width: 75%;
@@ -96,8 +152,8 @@ section h2::after {
 .large-box {
   width: 100%;
   height: 400px;
- /* background-image: url('blank');*/
-  /*display: flex;
+ background-image: url('blank');
+  display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
@@ -107,12 +163,12 @@ section h2::after {
 
 .fixed-size-image {
   width: 200px;  /* Set your desired width */
-  /*height: 200px; /* Set your desired height */
-  /*object-fit: cover; /* Optional: ensures images maintain their aspect ratio and fill the given dimensions */
-/*}
+  height: 200px; /* Set your desired height */
+  object-fit: cover; /* Optional: ensures images maintain their aspect ratio and fill the given dimensions */
+}
 
 /* add projects images */
-/*#project-A, #project-B, #project-C, #project-D, #project-E {
+#project-A, #project-B, #project-C, #project-D, #project-E {
   width: 200px;
   height: 200px;
   background-size: cover;
@@ -120,7 +176,7 @@ section h2::after {
 }
 
 /* Background images for each project */
-/*#project-A {
+#project-A {
   background-image: url(./assets/image/WorkoutTracker2.png);
 }
 #project-B {
@@ -164,7 +220,7 @@ section h2::after {
 }
 
 /* add a link to my github */
-/*.project1-box {
+.project1-box {
   flex-basis: calc(100%);
   height: 250px;
   background-image: url('git@github.com:nybrasil/HW1.git');
@@ -202,9 +258,9 @@ section h2::after {
   justify-content: center;
   align-items: center;
   background-size: cover;
-}*/
+}
 
-/*.project1-box, .project2-box, .project3-box, .project4-box {
+.project1-box, .project2-box, .project3-box, .project4-box {
   flex-basis: calc(100%);
   height: 250px;
   display: flex;
@@ -251,16 +307,6 @@ section h2::after {
   text-decoration: none;
 }
 
-footer {
-  text-align: center;
-  border: 5px solid var(--color-darkblue);
-  border-radius: 10px;
-  position: absolute;
-  padding: 10px;
-  background-color: var(--color-lightwhite);
-  width: 100%;
-}
 
-footer p {
-  margin: 0px;
-}
+
+

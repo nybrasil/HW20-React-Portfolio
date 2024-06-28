@@ -11,7 +11,7 @@ const Header = () => {
           <img src="/src/assets/image/IMG_4135 2.JPG" height="100" alt="avatar" className="avatar" />
           <h1>Tania Bezerra</h1>
         </section>
-        <nav>
+        <nav className='navbar'>
           <ul>
           <li><Link to="/aboutme">About Me</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>

@@ -42,8 +42,10 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section>
+    <section className='portfolioContainer'>
       <h2>Portfolio</h2>
+    <div className='projectContainer'>
+
       {projects.map((project, index) => (
         <Project 
           key={index} 
@@ -53,6 +55,7 @@ const Portfolio = () => {
           repoUrl={project.repoUrl} 
         />
       ))}
+      </div>
     </section>
   );
 };
