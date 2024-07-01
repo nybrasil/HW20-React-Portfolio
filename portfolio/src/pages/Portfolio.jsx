@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'Sql',
     image: Image1,
-    deployedUrl: ''
+    deployedUrl: '',
     repoUrl: "https://github.com/nybrasil/HW12--SQL-Employee-Tracker"
     },
     {
