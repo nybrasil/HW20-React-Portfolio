@@ -14,29 +14,29 @@ const projects = [
     repoUrl: 'https://github.com/emsim11/Group-Project2'
   },
   {
-    title: 'sql',
+    title: 'Sql',
     image: Image1,
-    deployedUrl: "",
-    repoUrl: ""
+    deployedUrl: ''
+    repoUrl: "https://github.com/nybrasil/HW12--SQL-Employee-Tracker"
     },
     {
-      title: 'orm',
+      title: 'E-Commerce Back-End',
       image: Image2,
       deployedUrl: "",
-      repoUrl: ""
+      repoUrl: "https://github.com/nybrasil/HW13-E-Commerce-Back-End"
       },
 
       {
-        title: 'schedule',
+        title: 'Work Day Schedule',
         image: Image3,
-        deployedUrl: "",
-        repoUrl: ""
+        deployedUrl: "https://nybrasil.github.io/HW5/",
+        repoUrl: "https://github.com/nybrasil/HW5"
         },
         {
-          title: 'tech',
+          title: 'Tech-Blog',
           image: Image4,
-          deployedUrl: "",
-          repoUrl: ""
+          deployedUrl: "https://hw14-tech-blog-4.onrender.com",
+          repoUrl: "https://github.com/nybrasil/HW14-Tech-Blog"
           },
 ];
 

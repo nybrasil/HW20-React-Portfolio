@@ -1,8 +1,9 @@
 /* src/app.css */
 
 .projectimage {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
 }
 
 .projectContainer{
@@ -51,7 +52,9 @@ body {
 
 header {
   padding: 1rem;
-  background-image: url(./assets/image/240_F_487196520_GiPcqzQyBwbo0heCKZKCsy6Chrn3sdIN.jpg);
+  /*background-image: url(./assets/image/240_F_487196520_GiPcqzQyBwbo0heCKZKCsy6Chrn3sdIN.jpg);*/
+  background-color: rgb(171, 207, 171);
+  margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -63,6 +66,16 @@ header {
   align-items: center;
 }
 
+.tabs {
+  align-items: stretch;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 .name-avatar {
   display: flex;
   align-items: center;
@@ -70,12 +83,39 @@ header {
 
 /* used border-radius for the avatar  */
 .avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 65%;
-  margin-right: 0.5rem;
+  clip-path: circle();
+    width: 250px;
+}
+img {
+  height: auto;
+  max-width: 100%;
 }
 
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
+
+  /*width: 250px;
+  height: 250px;
+  border-radius: 65%;
+  margin-right: 2rem;
+ 
+}*/
+.navbar .navbar-brand>.navbar-item {
+  display: inline-block;
+}
+
+.navbar-link, a.navbar-item {
+  cursor: pointer;
+}
+.navbar-link:hover, a.navbar-item:hover {
+  color: black;
+  }
+  
+  
 nav ul {
   display: flex;
   list-style-type: none;
@@ -110,9 +150,15 @@ main {
 }
 
 .portfolioContainer{
-  display: flex;
+  display: left;
   flex-direction: column;
   align-items: center;
+}
+.portfolioContainer h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 /* section {
   margin-bottom: 3rem;
@@ -305,6 +351,22 @@ section h2::after {
 .work-container a:visited {
   color: black;
   text-decoration: none;
+}
+
+.footer-container {
+  background-color: rgb(171, 207, 171);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+
+  color: white
+}
+
+.footer-container a {
+  color: white;
+  margin: 20px;
 }
 
 
